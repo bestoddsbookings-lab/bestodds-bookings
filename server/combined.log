@@ -1,0 +1,719 @@
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-04-30T20:15:43.143Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-04-30T20:16:59.574Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T09:47:06.315Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T10:21:29.312Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822be902sm270405285e9.6 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822be902sm270405285e9.6 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822be902sm270405285e9.6 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T10:28:18.932Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T10:43:31.824Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822bf3ffsm271644165e9.7 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822bf3ffsm271644165e9.7 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a822bf3ffsm271644165e9.7 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T10:46:17.768Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8feee4d2sm54944085e9.26 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8feee4d2sm54944085e9.26 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8feee4d2sm54944085e9.26 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T10:50:22.524Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T11:13:49.568Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T12:36:38.495Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cf97sm21322754f8f.6 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cf97sm21322754f8f.6 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cf97sm21322754f8f.6 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T12:51:35.138Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a82308d77sm296447415e9.14 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a82308d77sm296447415e9.14 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a82308d77sm296447415e9.14 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T12:57:32.825Z"}
+{"level":"info","message":"Email service configured using Gmail","timestamp":"2026-05-03T13:02:09.915Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:02:09.940Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Email transporter verification failed Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a986aa70dsm18800012f8f.25 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a986aa70dsm18800012f8f.25 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a986aa70dsm18800012f8f.25 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:02:11.781Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T13:12:44.480Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:12:44.496Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Email transporter verification failed Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a981defb3sm25101244f8f.20 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a981defb3sm25101244f8f.20 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a981defb3sm25101244f8f.20 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:12:46.085Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T13:26:35.473Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:26:35.492Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Email transporter verification failed Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8eb6fffcsm204125115e9.4 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8eb6fffcsm204125115e9.4 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8eb6fffcsm204125115e9.4 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:26:37.525Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T13:32:24.972Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:32:24.996Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Email transporter verification failed Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17550038f8f.2 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17550038f8f.2 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17550038f8f.2 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:32:26.654Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17554128f8f.2 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17554128f8f.2 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-44a8ea7cfd2sm17554128f8f.2 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:33:28.596Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send verification email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8fe3cd18sm56310305e9.0 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8fe3cd18sm56310305e9.0 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a8fe3cd18sm56310305e9.0 - gsmtp\n    at SMTPConnection._formatError (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:887:19)\n    at SMTPConnection._actionAUTHComplete (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1695:34)\n    at SMTPConnection.<anonymous> (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:626:26)\n    at SMTPConnection._processResponse (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1072:20)\n    at SMTPConnection._onData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:847:14)\n    at SMTPConnection._onSocketData (D:\\pickney\\server\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:217:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-05-03T13:34:22.832Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T13:41:29.045Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:41:29.071Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T13:41:30.720Z"}
+{"level":"info","message":"Verification email sent to bonoregiona@gmail.com (<ecf07e90-1ace-5111-ae50-7ed7f1fa5d0a@gmail.com>)","timestamp":"2026-05-03T13:47:11.377Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T13:51:43.202Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T13:51:43.221Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T13:51:44.761Z"}
+{"level":"info","message":"Verification email sent to silintoj56@gmail.com (<8a782e21-e283-3258-b79a-593d24bdded2@gmail.com>)","timestamp":"2026-05-03T13:54:19.030Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T14:00:31.048Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T14:00:31.065Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T14:00:32.766Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T14:05:22.104Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T14:05:22.121Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T14:05:24.004Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T14:12:54.206Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T14:12:54.224Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T14:12:55.972Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T14:21:36.166Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T14:21:36.185Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T14:21:37.853Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T14:51:06.192Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T14:51:06.222Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T14:51:08.270Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:53:06.989Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:53:06.996Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:56:06.503Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:56:06.508Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:59:49.720Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:59:54.239Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T14:59:54.255Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:27.591Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:27.603Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:38.284Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:38.302Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:39.802Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:39.819Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:40.639Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:40.657Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:41.489Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:41.510Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:42.216Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:42.233Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:42.970Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:42.978Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:43.708Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:43.715Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:44.435Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:44.449Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:45.197Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:45.204Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:45.935Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:45.950Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:46.719Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:46.747Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:47.584Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:47.598Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:48.348Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:48.354Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:49.487Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:05:49.502Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:10:28.228Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:10:28.503Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:10:30.344Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:16:21.544Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:16:21.550Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:16:25.729Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:16:25.736Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:18:24.509Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:18:24.515Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:18:31.513Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:19:49.298Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:19:49.314Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:19:57.231Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:19:57.241Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:10.448Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:10.460Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:11.049Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:11.066Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:11.667Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:21:11.683Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:22:31.051Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:22:31.057Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:37:15.874Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:37:16.139Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:37:17.787Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:42:40.618Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:42:40.892Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:42:42.995Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:48:48.231Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:48:48.572Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:48:50.156Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:50:31.880Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:50:31.888Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:52:04.561Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:52:04.822Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:52:06.426Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:52:31.593Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:52:31.855Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:52:33.373Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:52:39.773Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:52:39.780Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:53:13.280Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:53:13.293Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:56:41.593Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:56:41.943Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:56:44.095Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:56:50.102Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:56:50.397Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:56:52.292Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:57:01.955Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:57:02.236Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:57:03.724Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:26.033Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:26.041Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:28.210Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:28.223Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:28.953Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:28.960Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:29.577Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:29.592Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:30.187Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:30.196Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:56.510Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T15:57:56.518Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T15:58:09.421Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T15:58:09.706Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T15:58:11.412Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:00:30.070Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:00:30.329Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:00:31.850Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:14:21.396Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:14:21.660Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:14:23.531Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:04.758Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:04.765Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:14.785Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:14.796Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:40.656Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:15:40.666Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:17:16.748Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:17:17.019Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:17:18.731Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:17:44.809Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:21:08.581Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:21:08.858Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:21:10.499Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:22:32.079Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:22:32.404Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:22:34.177Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:24:18.973Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:28:45.460Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:32:14.685Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:32:14.966Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:32:16.821Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:32:24.760Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:32:24.827Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:33:04.343Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:36:30.888Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:36:31.250Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:36:32.719Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:36:36.035Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:36:36.348Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:36:37.996Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:37:00.605Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:37:00.945Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:37:02.414Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:37:11.360Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:37:11.804Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:37:13.256Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:37:56.974Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:37:57.264Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:37:59.149Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:39:07.087Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:39:07.385Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:39:09.081Z"}
+{"clientVersion":"6.19.3","level":"error","name":"PrismaClientValidationError","timestamp":"2026-05-03T16:40:12.703Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:42:37.589Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:42:37.870Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:42:39.775Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:44:32.003Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:44:32.273Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:44:33.848Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:48:55.102Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:48:55.409Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:48:57.294Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:51:47.225Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:51:47.513Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:51:49.032Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:51:53.260Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:51:53.692Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:51:55.189Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:51:58.524Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:51:58.814Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:52:00.837Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:56:05.536Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:56:05.908Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:56:08.023Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T16:56:09.461Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T16:56:09.776Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T16:56:11.417Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:00:42.748Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:00:43.111Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:00:49.148Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:01:07.114Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:01:07.767Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:01:09.291Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:03:55.869Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:03:56.165Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:03:58.196Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:07:24.468Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:07:24.801Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:07:26.645Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:07:37.522Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:07:37.823Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:07:39.344Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:08:41.110Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:08:41.406Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:08:42.972Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:13:24.149Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:13:24.953Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:13:26.616Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:13:27.855Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:13:28.321Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:13:29.799Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:13:40.276Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:13:40.703Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:13:42.345Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:13:42.799Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:13:44.416Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:14:32.204Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:14:32.492Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:14:33.936Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:18:00.198Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:18:00.693Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:18:02.290Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:26:41.277Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:26:41.623Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:26:48.898Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:39:29.733Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:39:30.109Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:39:44.364Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T17:44:07.278Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T17:44:07.740Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T17:44:10.777Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-03T18:09:56.895Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-03T18:09:57.379Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-03T18:09:59.552Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T11:53:19.512Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T11:53:19.905Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T11:53:21.854Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:19:51.398Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:19:51.679Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:19:53.750Z"}
+{"level":"info","message":"Verification email sent to silintoj56@gmail.com (<7cd70f39-b6a2-296e-6e8c-e5e594814d6c@gmail.com>)","timestamp":"2026-05-10T12:37:12.133Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:44:29.299Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:44:29.594Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:44:30.502Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:44:30.820Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:44:32.772Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:44:43.403Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:44:44.115Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:44:46.898Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:44:50.846Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:44:51.202Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:44:52.564Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:45:03.482Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:45:03.768Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:45:05.074Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:45:12.906Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:45:13.211Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:45:14.645Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:45:17.034Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:45:17.640Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:45:19.853Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:45:24.809Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:45:25.159Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:45:26.682Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:45:36.182Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:45:36.544Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:45:37.840Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:46:20.558Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:46:20.940Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:46:22.325Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:46:23.769Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:46:24.058Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:46:25.458Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:46:30.731Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:46:31.071Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:46:32.499Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:48:05.523Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:48:05.861Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:48:07.244Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:51:55.094Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:51:55.396Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:51:57.062Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:52:53.157Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:52:53.429Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:52:54.799Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:54:58.560Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:54:58.843Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:55:05.163Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T12:56:57.190Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T12:56:57.456Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T12:57:09.437Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:02:51.528Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:02:51.828Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:03:03.430Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:04:17.125Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:04:17.494Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:04:19.467Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:04:52.491Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:04:52.837Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:04:54.353Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:10:51.686Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:10:52.119Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:10:53.645Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:11:00.390Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:11:00.687Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:11:02.112Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:19:33.443Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:19:33.816Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:19:35.520Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:19:52.867Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:19:53.182Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:19:55.673Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:35:27.478Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:35:27.920Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:35:29.365Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:35:32.012Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:35:32.325Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:35:33.781Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:36:30.851Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:36:31.347Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:36:32.841Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:36:53.996Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:36:54.306Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:36:55.784Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:36:59.038Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:36:59.428Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:37:00.624Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:37:01.024Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:37:02.455Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:37:17.274Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:37:17.790Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:37:19.589Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:37:33.037Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:37:33.355Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:37:34.703Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:43:07.092Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:43:07.483Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:43:09.169Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:43:37.512Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:43:37.946Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:43:39.846Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:43:45.496Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:43:45.797Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:43:47.177Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:43:53.133Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:43:53.647Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:43:55.093Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:44:09.642Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:44:10.244Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:44:11.636Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:44:19.360Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:44:19.673Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:44:21.000Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:47:26.140Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:47:26.700Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:47:28.183Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:48:29.511Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:48:29.811Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:48:31.230Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:48:55.745Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:48:56.025Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:48:57.409Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:50:08.211Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:50:08.477Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:50:09.199Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:50:09.461Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:50:10.768Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:50:13.848Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:50:14.131Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:50:15.462Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:52:16.807Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:52:17.099Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:52:18.604Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:58:34.307Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:58:34.624Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:58:36.174Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:06.044Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:06.342Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:59:07.662Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:08.426Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:08.743Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:09.874Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:10.166Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:11.136Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:11.471Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:59:12.950Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:16.469Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:16.754Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:17.680Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:17.976Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:59:19.402Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:26.537Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:26.870Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T13:59:27.766Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T13:59:28.279Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T13:59:29.728Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:00:02.928Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:00:03.275Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:00:04.733Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:02:42.379Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:02:42.706Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:02:44.828Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:02:59.599Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:03:00.074Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:03:01.691Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:03:10.981Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:03:11.474Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:03:13.187Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:03:20.258Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:03:20.604Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:03:22.224Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:03:47.687Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:03:48.007Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:03:49.381Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:04:24.948Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:04:25.337Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:04:26.779Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:05:14.304Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:05:14.657Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:05:16.240Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:05:29.670Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:05:30.065Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:05:31.493Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:05:57.091Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:05:58.537Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:05:59.995Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:10:31.789Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:10:32.057Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:10:32.788Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:10:33.050Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:10:34.781Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:01.971Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:02.241Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:03.145Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:03.407Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:11:04.833Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:20.436Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:20.700Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:21.436Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:21.700Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:11:23.130Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:24.737Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:24.999Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:25.769Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:26.043Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:27.512Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:27.788Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:28.716Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:28.978Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:30.370Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:30.645Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:32.223Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:32.486Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:33.289Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:33.612Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:34.536Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:34.834Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:11:36.771Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:11:37.046Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:11:38.517Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:13:04.595Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:13:04.874Z"}
+{"address":"142.251.31.109","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","message":"Email transporter verification failed connect ETIMEDOUT 142.251.31.109:587","port":587,"stack":"Error: connect ETIMEDOUT 142.251.31.109:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","syscall":"connect","timestamp":"2026-05-10T14:13:25.933Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:14:45.837Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:14:46.106Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:14:47.989Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:16:55.141Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:16:55.402Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:16:57.499Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:16:57.762Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:16:59.209Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:17:25.793Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:17:26.080Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:17:27.705Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:26:01.073Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:26:01.534Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:26:03.122Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:32:12.228Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:32:12.993Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:32:14.543Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:33:54.954Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:33:55.222Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:33:56.973Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:35:16.065Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:35:16.341Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:35:17.234Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:35:17.492Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:35:19.042Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:35:32.475Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:35:32.766Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:35:34.230Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:45:19.621Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:45:20.160Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:45:22.061Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:45:35.530Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:45:36.050Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:45:37.539Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T14:46:55.643Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T14:46:55.978Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T14:46:57.591Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:19:01.629Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:19:02.049Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:19:04.037Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:19:04.745Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:19:05.245Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:19:06.696Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:19:12.528Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:19:13.072Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:19:14.480Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:19:23.457Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:19:23.875Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:19:25.282Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:26:03.538Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:26:03.888Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:26:05.478Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:26:58.705Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:26:59.025Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:27:00.426Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:30:39.145Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:30:39.434Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:30:40.779Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:35:56.947Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:35:57.281Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:35:58.970Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:36:29.480Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:36:29.836Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:36:31.296Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:36:34.588Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:36:35.054Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:36:36.660Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:36:45.974Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:36:46.372Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:36:47.915Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:36:51.167Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:36:51.742Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:36:53.166Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:37:05.253Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:37:06.089Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:37:07.592Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:39:37.673Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:39:37.960Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:39:39.578Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:40:48.703Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:40:48.976Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:40:49.807Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:40:50.086Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:40:51.484Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:40:55.557Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:40:55.825Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:40:56.654Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:40:56.943Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:40:58.368Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:34.332Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:34.637Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:35.598Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:35.899Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:41:37.440Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:45.390Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:45.680Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:46.575Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:46.847Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:41:48.249Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:51.242Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:51.527Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:52.482Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:52.771Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:41:54.211Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:41:55.796Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:41:56.097Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:41:57.481Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:19.051Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:19.351Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:20.241Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:20.547Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:21.929Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:22.349Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:23.934Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:24.373Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:26.078Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:26.541Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:27.724Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:28.044Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:28.945Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:29.249Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:30.184Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:30.465Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:42:31.434Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:42:31.752Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:42:33.174Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:46:55.074Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:46:55.362Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:46:56.729Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:47:02.625Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:47:03.001Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:47:04.537Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:47:17.402Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:47:17.685Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:47:19.041Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:47:24.363Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:47:24.752Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:47:26.128Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:47:58.849Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:47:59.162Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:48:00.531Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:49:22.253Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:49:22.569Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:49:24.321Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:49:49.054Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:49:49.365Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:49:50.258Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:49:50.605Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:49:52.434Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:49:52.712Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:49:53.603Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:49:53.919Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:49:55.283Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:50:17.346Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:50:17.626Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:50:18.559Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:50:18.829Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:50:20.195Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:50:26.458Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:50:26.743Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:50:28.111Z"}
+{"level":"info","message":"Verification email sent to walikabs@gmail.com (<b5eca058-0e57-913b-4dbe-1e223c208109@gmail.com>)","timestamp":"2026-05-10T15:52:41.165Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:53:27.524Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:53:27.827Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:53:29.193Z"}
+{"level":"info","message":"Verification email sent to realakwesione@gmail.com (<0d6f4063-b564-5d22-8552-e2a971cb9b7b@gmail.com>)","timestamp":"2026-05-10T15:53:35.153Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:54:20.598Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:54:20.942Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T15:54:21.714Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T15:54:22.069Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T15:54:23.394Z"}
+{"level":"info","message":"Verification email sent to realakwesione@gmail.com (<2e17c2ea-249a-9186-9bf4-21ac0b15914e@gmail.com>)","timestamp":"2026-05-10T15:57:23.545Z"}
+{"level":"info","message":"Verification email sent to realakwesione@gmail.com (<1f92f8cc-d368-a085-b8a9-c91e9609d7ae@gmail.com>)","timestamp":"2026-05-10T15:57:26.878Z"}
+{"level":"info","message":"Verification email sent to realakwesione@gmail.com (<9b434bc4-9e2c-dd20-1e61-d5aab02fc084@gmail.com>)","timestamp":"2026-05-10T15:57:30.036Z"}
+{"level":"info","message":"Verification email sent to realakwesione@gmail.com (<0fe589f9-f49e-3ce7-0e48-00ad0b7031ad@gmail.com>)","timestamp":"2026-05-10T16:02:25.608Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:06:24.273Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:06:24.637Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:06:26.081Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:06:54.592Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:06:54.910Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:06:56.272Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:15:15.547Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:15:15.922Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:15:17.565Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:15:28.883Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:15:29.209Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:15:30.693Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:18:57.487Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:18:58.091Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:18:59.569Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:19:42.801Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:19:43.143Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:19:45.053Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:22:48.986Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:22:49.493Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:22:51.205Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:23:30.945Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:23:31.436Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:23:33.062Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:24:56.704Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:24:56.998Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:24:58.409Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-10T16:27:09.460Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-10T16:27:09.881Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-10T16:27:11.211Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-11T17:20:59.711Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-11T17:21:00.645Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-11T17:21:03.194Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-11T18:11:25.861Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-11T18:11:26.173Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-11T18:11:27.760Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-11T18:19:20.823Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-11T18:19:21.171Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-11T18:19:22.927Z"}
+{"level":"info","message":"Email service configured using SMTP_HOST","timestamp":"2026-05-11T18:21:12.473Z"}
+{"level":"info","message":"Server is running on http://localhost:5000","timestamp":"2026-05-11T18:21:12.787Z"}
+{"level":"info","message":"Email transporter verified OK","timestamp":"2026-05-11T18:21:14.128Z"}

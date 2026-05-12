@@ -1,0 +1,38 @@
+{
+  "name": "bestoddsgH-server",
+  "version": "1.0.0",
+  "description": "Server for the BestOddsGH system",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "ws": "^8.13.0",
+    "pg": "^8.7.1",
+    "prisma": "^6.19.3",
+    "streamifier": "^0.1.1",
+    "uuid": "^14.0.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^30.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

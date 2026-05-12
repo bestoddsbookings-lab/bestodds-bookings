@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestOddsGH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#0b1020">
+    <!-- Favicon served from the server uploads folder. Update path if needed. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/uploads/BestOdds_favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/uploads/BestOdds_favicon.png">
+    <link rel="apple-touch-icon" href="/uploads/BestOdds_favicon.png">
+    <link rel="shortcut icon" href="/uploads/BestOdds_favicon.png">
+        <script>
+            (function() {
+                // Ensure favicon loads during development when client runs on a different port
+                var serverHost;
+                if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+                    // default backend dev port used in this project
+                    serverHost = location.protocol + '//' + location.hostname + ':5000';
+                }
+                var candidates = [];
+                if (serverHost) candidates.push(serverHost + '/uploads/BestOdds_favicon.png');
+                candidates.push('/uploads/BestOdds_favicon.png');
+                candidates.push('/favicon.ico');
+                // Append link tags with a cache-busting query so the browser fetches the latest file
+                for (var i = 0; i < candidates.length; i++) {
+                    var l = document.createElement('link');
+                    l.rel = 'icon';
+                    l.type = 'image/png';
+                    l.href = candidates[i] + '?v=' + Date.now();
+                    document.head.appendChild(l);
+                }
+            })();
+        </script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

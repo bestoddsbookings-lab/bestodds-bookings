@@ -1,0 +1,14 @@
+{
+  "name": "pickney",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "install": "npm install --prefix client && npm install --prefix server"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

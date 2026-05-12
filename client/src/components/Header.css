@@ -1,0 +1,44 @@
+.header{
+	position:sticky;
+	top:0;
+	z-index:80;
+	background: linear-gradient(90deg, rgba(11,16,32,0.6), rgba(11,16,32,0.45));
+	border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+.header-inner{max-width:var(--max-width);margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+
+.brand a{color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem}
+
+.nav ul{list-style:none;padding:0;margin:0;display:flex;gap:12px;align-items:center}
+.nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px;display:inline-block}
+.nav a:hover,.nav a:focus{color:#fff;background:rgba(255,255,255,0.02);outline:none}
+
+.nav-logout{background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--muted);padding:8px 10px;border-radius:8px;cursor:pointer}
+.nav-logout:hover{color:#fff;border-color:rgba(255,255,255,0.06)}
+
+.hamburger{display:none;background:transparent;border:0;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer;color:var(--muted)}
+.hamburger-box{display:inline-block;width:22px;height:18px;position:relative}
+.hamburger-inner,.hamburger-inner::before,.hamburger-inner::after{background:var(--muted);border-radius:2px;width:22px;height:2px;display:block;position:absolute;transition:transform .25s ease,opacity .2s ease}
+.hamburger-inner{top:50%;transform:translateY(-50%)}
+.hamburger-inner::before{content:'';top:-7px;left:0}
+.hamburger-inner::after{content:'';top:7px;left:0}
+
+.hamburger.is-open .hamburger-inner{transform:rotate(45deg)}
+.hamburger.is-open .hamburger-inner::before{transform:rotate(-90deg) translateX(-6px);top:0}
+.hamburger.is-open .hamburger-inner::after{opacity:0}
+
+.mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:79}
+
+/* mobile drawer */
+.nav{display:block}
+@media(max-width:768px){
+	.hamburger{display:flex}
+	.nav{position:fixed;right:0;top:0;height:100vh;width:80%;max-width:320px;transform:translateX(110%);transition:transform .28s ease;z-index:80;background:var(--bg);padding-top:80px;box-shadow:-20px 0 60px rgba(0,0,0,0.6)}
+	.nav.open{transform:translateX(0)}
+	.nav ul{flex-direction:column;padding:12px 18px;gap:14px}
+	.nav a{font-size:18px}
+	.brand a{font-size:1rem}
+	.header-inner{padding:8px 12px}
+}
+

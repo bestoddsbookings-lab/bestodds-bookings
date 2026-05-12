@@ -1,0 +1,76 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260503154239
+Username: MP_LORD\silin
+RunAs User: MP_LORD\silin
+Configuration Name: 
+Machine: MP_LORD (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "d:\Microsoft VS Code\41dd792b5e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 16720
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\pickney\server\server-log.txt
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+]633;D]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS># start server (use whichever you normally run)
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>npm run dev
+    at D:\pickney\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\pickney\server\node_modules\express\lib\router\ind
+ex.js:346:12)
+Terminate batch job (Y/N)? y
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS># or
+]633;D;1]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS># npm start
+]633;D;1]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>cls
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>npm start
+uploadAsset called { type: 'flyer', file: 'page_logo.png' }
+asset upload attempt {
+  url: '/api/admin/assets/upload',
+  method: 'POST',
+  headers: { authorization: false, 'x-admin-user': true },
+  contentLength: '1360633'
+}
+admin middleware: env auth attempt { headerUser: true, headerPass: true }
+uploadAsset called { type: 'background', file: 'background.png' }
+Terminate batch job (Y/N)? y
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>cls
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>npm start
+    at module.exports (D:\pickney\server\src\middleware\auth.js:18:5)
+getMyPurchases error TypeError: Cannot read properties of undefined (reading 'findMan
+y')
+    at exports.getMyPurchases (D:\pickney\server\src\modules\purchase\purchaseControl
+ler.js:80:45)
+    at Layer.handle [as handle_request] (D:\pickney\server\node_modules\express\lib\r
+outer\layer.js:95:5)
+    at next (D:\pickney\server\node_modules\express\lib\router\route.js:149:13)
+    at module.exports (D:\pickney\server\src\middleware\auth.js:18:5)
+Terminate batch job (Y/N)? y
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>cls
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>cd D:\pickney\server
+]633;D;0]633;A]633;P;Cwd=D:\x5cpickney\x5cserverPS D:\pickney\server> ]633;B
+PS>Start-Transcript -Path D:\pickney\server\server-log.txt -Force
+**********************
+Windows PowerShell transcript end
+End time: 20260503161715
+**********************
