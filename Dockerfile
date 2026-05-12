@@ -11,8 +11,9 @@ RUN cd client && npm run build
 FROM node:18-alpine AS server
 WORKDIR /app
 COPY server/package.json server/package-lock.json* ./server/
-RUN cd server && npm ci --production --silent && npx prisma generate
+RUN cd server && npm ci --production --silent
 COPY server ./server
+RUN cd server && npx prisma generate
 # Copy client build into server/build so server can serve it
 COPY --from=client-builder /app/client/build ./server/build
 
