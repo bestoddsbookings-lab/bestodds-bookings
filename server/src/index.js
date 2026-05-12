@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs'); // Only declare once at the top
 
 // serve uploads directory so uploaded files are accessible
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
@@ -80,7 +80,7 @@ try {
 }
 
 // Periodic sweep: clear expired booking codes stored in file-backed submissions
-const fs = require('fs');
+// (fs already required at top)
 function sweepExpiredBookingCodes() {
     try {
         const submissionsDir = path.resolve(__dirname, '../uploads/submissions');
