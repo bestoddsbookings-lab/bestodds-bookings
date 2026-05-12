@@ -31,11 +31,12 @@ if (SMTP_HOST) {
 }
 
 // Verify transporter early to surface auth errors on startup
-transporter.verify().then(() => {
+try {
+  transporter.verify();
   logger.info('Email transporter verified OK');
-}).catch((err) => {
+} catch (err) {
   logger.error('Email transporter verification failed', err);
-});
+}
 
 function buildVerifyUrl(token) {
   return `${process.env.APP_URL || 'http://localhost:5000'}/api/auth/verify?token=${token}`;
