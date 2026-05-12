@@ -1,8 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+const prisma = require('../prisma');
 
-const prisma = new PrismaClient();
-
-export const getOdds = async () => {
+const getOdds = async () => {
     try {
         const odds = await prisma.odds.findMany();
         return odds;
@@ -11,7 +9,7 @@ export const getOdds = async () => {
     }
 };
 
-export const createOdds = async (data) => {
+const createOdds = async (data) => {
     try {
         const newOdds = await prisma.odds.create({
             data,
@@ -22,7 +20,7 @@ export const createOdds = async (data) => {
     }
 };
 
-export const updateOdds = async (id, data) => {
+const updateOdds = async (id, data) => {
     try {
         const updatedOdds = await prisma.odds.update({
             where: { id },
@@ -34,7 +32,7 @@ export const updateOdds = async (id, data) => {
     }
 };
 
-export const deleteOdds = async (id) => {
+const deleteOdds = async (id) => {
     try {
         await prisma.odds.delete({
             where: { id },
@@ -42,4 +40,11 @@ export const deleteOdds = async (id) => {
     } catch (error) {
         throw new Error('Error deleting odds data');
     }
+};
+
+module.exports = {
+    getOdds,
+    createOdds,
+    updateOdds,
+    deleteOdds,
 };
