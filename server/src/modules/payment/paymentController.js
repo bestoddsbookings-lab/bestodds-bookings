@@ -1,7 +1,7 @@
 const logger = require('../../utils/logger');
 const fs = require('fs');
 const path = require('path');
-const { v4: uuidv4 } = require('uuid');
+const uuidv4 = require('uuidv4');
 
 const submissionsDir = path.resolve(__dirname, '../../../uploads/submissions');
 fs.mkdirSync(submissionsDir, { recursive: true });

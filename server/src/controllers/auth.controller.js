@@ -1,6 +1,6 @@
 const prisma = require("../prisma");
 const bcrypt = require("bcrypt");
-const { v4: uuidv4 } = require("uuid");
+const uuidv4 = require('uuidv4');
 const { signToken } = require("../utils/jwt");
 const emailService = require("../modules/email/emailService");
 
