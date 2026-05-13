@@ -8,9 +8,7 @@ User flow:
 Register → Verify Email → Submit Payment Proof → Admin Approval → Receive Booking Code
 
 1. Environment Configuration
-
-Create `server/.env` with exact keys:
-
+.env
 ```
 DATABASE_URL=postgresql://USER:PASSWORD@localhost:5432/bestoddsgh
 JWT_SECRET=supersecretkey
