@@ -31,7 +31,7 @@ export default function Dashboard() {
   // listen for server-sent websocket events (new code arrivals, expirations)
   useEffect(() => {
     if (!profile) return;
-    const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
     try {
       const wsProto = API_BASE.startsWith('https') ? 'wss' : 'ws';
       const host = API_BASE.replace(/^https?:\/\//, '');
@@ -307,7 +307,7 @@ export default function Dashboard() {
               <UploadProofForm defaults={{ amountPaid: newArrival.price }} onSubmitted={async () => {
                 // after successful submission, remove the new-arrival so user cannot buy again
                 try {
-                  await fetch((process.env.REACT_APP_API_URL || 'http://localhost:5000') + '/api/booking/new-arrival', { method: 'DELETE', headers: { ...authHeaders() } });
+                  await fetch((process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com') + '/api/booking/new-arrival', { method: 'DELETE', headers: { ...authHeaders() } });
                 } catch (e) { /* ignore */ }
                 setShowBuyModal(false);
                 await fetchAll();

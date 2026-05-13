@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Footer() {
-  const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+  const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
   const logoUrl = `${API_BASE}/uploads/MP_LORD_LOGO.JPEG`;
   const [logoOk, setLogoOk] = useState(true);
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/index.css';
 
 const Home = () => {
-    const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
     const [bgUrl, setBgUrl] = useState(null);
 
     const heroRef = useRef();
@@ -54,8 +54,8 @@ const Home = () => {
                     <Link to="/login" style={{ display: 'block', cursor: 'pointer' }}>
                         <div className="hero-media" ref={heroRef}>
                             <picture>
-                                <source media="(min-width:600px)" srcSet={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/uploads/sports_pc_hero.png`} />
-                                <img alt="sports" src={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/uploads/sports_mobile_hero.png`} style={{ width: '100%', borderRadius: 12 }} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://images.unsplash.com/photo-1517927033932-bc3d6a0458a6?auto=format&fit=crop&w=800&q=60'; }} />
+                                <source media="(min-width:600px)" srcSet={`${API_BASE}/uploads/sports_pc_hero.png`} />
+                                <img alt="sports" src={`${API_BASE}/uploads/sports_mobile_hero.png`} style={{ width: '100%', borderRadius: 12 }} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://images.unsplash.com/photo-1517927033932-bc3d6a0458a6?auto=format&fit=crop&w=800&q=60'; }} />
                             </picture>
                         </div>
                     </Link>

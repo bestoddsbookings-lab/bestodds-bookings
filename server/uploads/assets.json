@@ -1,16 +1,16 @@
 {
   "logo": {
-    "url": "http://localhost:5000/uploads/assets/logo-1778430168104.png",
+    "url": "https://bestodds-bookings.onrender.com/uploads/assets/logo-1778430168104.png",
     "local": true,
     "path": "D:\\pickney\\server\\uploads\\assets\\logo-1778430168104.png"
   },
   "background": {
-    "url": "http://localhost:5000/uploads/assets/background-1778429714614.png",
+    "url": "https://bestodds-bookings.onrender.com/uploads/assets/background-1778429714614.png",
     "local": true,
     "path": "D:\\pickney\\server\\uploads\\assets\\background-1778429714614.png"
   },
   "flyer": {
-    "url": "http://localhost:5000/uploads/assets/flyer-1778429728022.png",
+    "url": "https://bestodds-bookings.onrender.com/uploads/assets/flyer-1778429728022.png",
     "local": true,
     "path": "D:\\pickney\\server\\uploads\\assets\\flyer-1778429728022.png"
   }

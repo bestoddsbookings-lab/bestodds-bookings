@@ -47,7 +47,9 @@ export default function UploadProofForm({ onSubmitted, defaults = {} }) {
       if (amountPaid) fd.append('amount', amountPaid);
       if (refundNumber) fd.append('refundNumber', refundNumber);
       if (tx) fd.append('referenceId', tx);
-      const res = await fetch((process.env.REACT_APP_API_URL || 'http://localhost:5000') + '/api/payments/submit', {
+      const API_URL = process.env.REACT_APP_API_URL || '';
+
+const res = await fetch(`${API_URL}/api/payments/submit`, {
         method: 'POST',
         headers: { ...authHeaders() },
         body: fd,

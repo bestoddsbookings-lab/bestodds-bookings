@@ -16,7 +16,7 @@ export default function AdminDashboard() {
   const [query, setQuery] = useState('');
   const [error, setError] = useState(null);
   const navigate = useNavigate();
-  const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+  const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
   const [previewImage, setPreviewImage] = useState(null);
 
   const adminUser = localStorage.getItem('admin_user');
@@ -34,7 +34,7 @@ export default function AdminDashboard() {
 
   async function fetchSupportInfo() {
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/admin/settings/support`, { headers: buildHeaders() });
+      const res = await fetch(`${process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com'}/api/admin/settings/support`, { headers: buildHeaders() });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.support) setSupportInfo(data.support);
     } catch (e) { }
@@ -42,7 +42,7 @@ export default function AdminDashboard() {
 
   async function fetchPaymentInfo() {
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/admin/settings/payment`, { headers: buildHeaders() });
+      const res = await fetch(`${process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com'}/api/admin/settings/payment`, { headers: buildHeaders() });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.payment) setPaymentInfo(data.payment);
     } catch (e) { }
@@ -50,7 +50,7 @@ export default function AdminDashboard() {
 
   // Poll for new payments so admins see uploads as they arrive
   useEffect(() => {
-    const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
     try {
       const wsProto = API_BASE.startsWith('https') ? 'wss' : 'ws';
       const host = API_BASE.replace(/^https?:\/\//, '');
@@ -79,7 +79,7 @@ export default function AdminDashboard() {
     } catch (err) {
       // try public fetch fallback
       try {
-        const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/assets/current`);
+        const res = await fetch(`${process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com'}/api/assets/current`);
         const json = await res.json().catch(() => ({}));
         setAssets(json.assets || null);
       } catch (e) { }
@@ -238,7 +238,7 @@ export default function AdminDashboard() {
         if (user && pass) { headers['x-admin-user'] = user; headers['x-admin-pass'] = pass; }
         else if (key) headers['x-admin-key'] = key;
       }
-      const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/admin/users/export`, { headers });
+      const res = await fetch(`${process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com'}/api/admin/users/export`, { headers });
       const blob = await res.blob();
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');

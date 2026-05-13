@@ -39,7 +39,7 @@ try {
 }
 
 function buildVerifyUrl(token) {
-  return `${process.env.APP_URL || 'http://localhost:5000'}/api/auth/verify?token=${token}`;
+  return `${process.env.APP_URL || 'https://bestodds-bookings.onrender.com'}/api/auth/verify?token=${token}`;
 }
 
 async function sendVerificationEmail(to, token) {

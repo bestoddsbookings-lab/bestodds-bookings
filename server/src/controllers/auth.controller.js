@@ -31,7 +31,7 @@ exports.register = async (req, res) => {
     } catch (err) {
       // fallback: still expose link in server log for dev
       console.error('Failed to send verification email, falling back to console link', err);
-      console.log(`VERIFY: http://localhost:5000/api/auth/verify?token=${token}`);
+      console.log(`VERIFY: https://bestodds-bookings.onrender.com/api/auth/verify?token=${token}`);
     }
 
     res.status(201).json({ message: "verification_sent" });
@@ -74,7 +74,7 @@ exports.resend = async (req, res) => {
       return res.json({ message: 'verification_sent' });
     } catch (err) {
       console.error('Failed to send verification email on resend', err);
-      const link = `http://localhost:5000/api/auth/verify?token=${token}`;
+      const link = `https://bestodds-bookings.onrender.com/api/auth/verify?token=${token}`;
       return res.json({ message: 'verification_sent_fallback', link });
     }
   } catch (err) {

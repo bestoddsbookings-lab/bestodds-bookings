@@ -9,7 +9,7 @@ export default function Offers() {
 
   async function fetchOffers() {
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/offers`);
+      const res = await fetch(`${process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com'}/api/offers`);
       const data = await res.json();
       setOffers(data || []);
     } catch (err) {

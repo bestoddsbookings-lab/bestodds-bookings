@@ -45,7 +45,7 @@ function loadAssets() {
             const destPath = path.join(newDir, filename);
             try {
               if (!fs.existsSync(destPath)) fs.renameSync(srcPath, destPath);
-              const hostUrl = 'http://localhost:' + (process.env.PORT || 5000);
+              const hostUrl = 'https://bestodds-bookings.onrender.com:' + (process.env.PORT || 5000);
               migrated[key] = { url: hostUrl + `/uploads/assets/${filename}`, local: true, path: destPath };
             } catch (e) {
               console.error('Failed to migrate asset file', srcPath, e.message);
