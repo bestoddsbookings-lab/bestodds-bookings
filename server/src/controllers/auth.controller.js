@@ -12,18 +12,23 @@ exports.verifyTokens = verifyTokens;
 exports.register = async (req, res) => {
   try {
     const { email, password, name } = req.body;
+    console.log('Register: received payload', { email, hasPassword: !!password, hasName: !!name });
 
     const exists = await prisma.user.findUnique({ where: { email } });
+    console.log('Register: exists check', !!exists);
     if (exists) return res.status(400).json({ message: "duplicate_email" });
 
     const hash = await bcrypt.hash(password, 10);
+    console.log('Register: password hashed');
 
     const user = await prisma.user.create({
       data: { email, password: hash, name },
     });
+    console.log('Register: user created', { id: user.id });
 
     const token = uuidv4();
     verifyTokens[token] = user.id;
+    console.log('Register: verification token generated');
 
     try {
       // send verification email (uses .env EMAIL_USER/EMAIL_PASS)
