@@ -10,7 +10,15 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
-app.use(bodyParser.json());
+// Capture raw request body for debugging JSON parse errors
+app.use(bodyParser.json({ verify: (req, res, buf, encoding) => {
+        try {
+            req.rawBody = buf.toString(encoding || 'utf8');
+        } catch (e) {
+            req.rawBody = undefined;
+        }
+    }
+}));
 app.use(bodyParser.urlencoded({ extended: true }));
 const path = require('path');
 const fs = require('fs'); // Only declare once at the top
@@ -58,6 +66,14 @@ try {
 // Global error handler (captures multer and other errors)
 app.use((err, req, res, next) => {
     console.error('Global error handler:', err && err.stack ? err.stack : err);
+    // If the JSON parser failed, log the raw payload to help debug malformed requests
+    try {
+        if (req && req.rawBody) {
+            console.error('Raw request body (first 1000 chars):', req.rawBody.slice(0, 1000));
+        }
+    } catch (e) {
+        console.error('Error logging raw request body', e);
+    }
     try {
         if (err && err.code === 'LIMIT_FILE_SIZE') return res.status(413).json({ error: 'File too large' });
         if (err && err.message && err.message.includes('Only image files are allowed')) return res.status(400).json({ error: err.message });
