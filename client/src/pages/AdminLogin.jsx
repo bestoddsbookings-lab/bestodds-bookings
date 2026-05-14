@@ -15,6 +15,8 @@ export default function AdminLogin() {
         const { token } = await (await import('../services/adminApi')).adminLogin(user, pass);
         if (token) {
           localStorage.setItem('admin_token', token);
+          localStorage.setItem('admin_user', user);
+          localStorage.setItem('admin_pass', pass);
           navigate('/admin/dashboard');
         }
       } catch (err) {
