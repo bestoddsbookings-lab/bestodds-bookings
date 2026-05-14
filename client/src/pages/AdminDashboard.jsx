@@ -49,27 +49,10 @@ export default function AdminDashboard() {
   }
 
   // Poll for new payments so admins see uploads as they arrive
+  // WebSocket code disabled for now; fallback to polling only
   useEffect(() => {
-    const API_BASE = process.env.REACT_APP_API_URL || 'https://bestodds-bookings.onrender.com';
-    try {
-      const wsProto = API_BASE.startsWith('https') ? 'wss' : 'ws';
-      const host = API_BASE.replace(/^https?:\/\//, '');
-      const ws = new WebSocket(`${wsProto}://${host}/ws`);
-      ws.addEventListener('open', () => console.log('admin ws open'));
-      ws.addEventListener('message', (ev) => {
-        try {
-          const d = JSON.parse(ev.data);
-          if (d && (d.type === 'new_submission' || d.type === 'submission_updated' || d.type === 'booking_code_set')) {
-            fetchPayments();
-          }
-        } catch (e) { }
-      });
-      return () => { ws.close(); };
-    } catch (e) {
-      // fallback to polling
-      const iv = setInterval(() => { fetchPayments(); }, 7000);
-      return () => clearInterval(iv);
-    }
+    const iv = setInterval(() => { fetchPayments(); }, 7000);
+    return () => clearInterval(iv);
   }, []);
 
   async function fetchAssets() {
