@@ -42,9 +42,7 @@ exports.register = async (req, res) => {
     res.status(201).json({ message: "verification_sent" });
   } catch (err) {
     console.error('Registration error:', err);
-    // Temporary: include error message in response to aid debugging in production
-    // Remove or restrict this before returning to a locked-down production state
-    res.status(500).json({ message: "server_error", error: err.message, stack: err.stack });
+    res.status(500).json({ message: "server_error" });
   }
 };
 
