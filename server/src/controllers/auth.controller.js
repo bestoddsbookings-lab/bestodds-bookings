@@ -1,6 +1,6 @@
 const prisma = require("../prisma");
 const bcrypt = require("bcrypt");
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 const { signToken } = require("../utils/jwt");
 const emailService = require("../modules/email/emailService");
 
@@ -26,7 +26,7 @@ exports.register = async (req, res) => {
     });
     console.log('Register: user created', { id: user.id });
 
-    const token = uuidv4();
+    const token = crypto.randomUUID();
     verifyTokens[token] = user.id;
     console.log('Register: verification token generated');
 
@@ -72,7 +72,7 @@ exports.resend = async (req, res) => {
     if (!user) return res.status(404).json({ message: 'not_found' });
     if (user.isVerified) return res.status(400).json({ message: 'already_verified' });
 
-    const token = uuidv4();
+    const token = crypto.randomUUID();
     verifyTokens[token] = user.id;
 
     try {

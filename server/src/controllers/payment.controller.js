@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 const { prisma } = require('../prisma');
 
 const submissionsDir = path.resolve(__dirname, '../../uploads/submissions');
@@ -37,7 +37,7 @@ exports.submitPayment = async (req, res) => {
     const amountPaid = (req.body.amount || req.body.amountPaid) ? Number(req.body.amount || req.body.amountPaid) : parseFloat(process.env.PAYMENT_AMOUNT || '50');
 
     const submission = {
-      id: uuidv4(),
+      id: crypto.randomUUID(),
       userId: String(userId),
       name: req.body.name || null,
       amountPaid: Number.isFinite(Number(amountPaid)) ? Number(amountPaid) : parseFloat(process.env.PAYMENT_AMOUNT || '50'),

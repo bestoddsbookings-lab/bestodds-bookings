@@ -1,7 +1,7 @@
 const logger = require('../../utils/logger');
 const fs = require('fs');
 const path = require('path');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 
 const submissionsDir = path.resolve(__dirname, '../../../uploads/submissions');
 fs.mkdirSync(submissionsDir, { recursive: true });
@@ -52,7 +52,7 @@ exports.submitPayment = async (req, res) => {
     console.log('submitPayment creating payment record', { userId, finalAmount, txId, referenceCode, screenshotUrl });
 
     // Create a file-backed submission record instead of DB payment
-    const submissionId = uuidv4();
+    const submissionId = crypto.randomUUID();
     const submission = {
       id: submissionId,
       userId: String(userId),

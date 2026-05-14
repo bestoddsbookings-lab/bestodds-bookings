@@ -6,7 +6,7 @@ const payment = require("../controllers/payment.controller");
 const admin = require("../controllers/admin.controller");
 const booking = require("../controllers/booking.controller");
 const emailService = require("../modules/email/emailService");
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 const offerRoutes = require('../modules/offer/offerRoutes');
 const purchaseRoutes = require('../modules/purchase/purchaseRoutes');
 const assetRoutes = require('../modules/assets/assetRoutes');
@@ -102,7 +102,7 @@ router.post('/email/test', async (req, res) => {
 	try {
 		const { to } = req.body;
 		if (!to) return res.status(400).json({ message: 'missing_to' });
-		const token = uuidv4();
+		const token = crypto.randomUUID();
 		await emailService.sendVerificationEmail(to, token);
 		return res.json({ message: 'sent' });
 	} catch (err) {

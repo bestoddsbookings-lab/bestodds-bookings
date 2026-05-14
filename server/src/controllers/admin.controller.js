@@ -245,8 +245,8 @@ exports.resendVerification = async (req, res) => {
     const user = await prisma.user.findUnique({ where: { id } });
     if (!user) return res.status(404).json({ message: 'not_found' });
     if (user.isVerified) return res.status(400).json({ message: 'already_verified' });
-    const { v4: uuidv4 } = require('uuid');
-    const token = uuidv4();
+    const crypto = require('crypto');
+    const token = crypto.randomUUID();
     // store token in-memory (reuse auth controller pattern)
     const authController = require('./auth.controller');
     if (!authController.verifyTokens) authController.verifyTokens = {};
